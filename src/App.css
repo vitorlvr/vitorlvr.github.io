@@ -7,10 +7,36 @@
     color: #fff;
 }
 
-.header {
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    padding: 20px 20px;
+    background-color: #394049;
     width: 100%;
-    padding: 18px 18px;
-    font-size: larger;
-    font-weight: bolder;
+}
+
+.nome {
+    justify-content: left;
     text-align: left;
+    width: 100%;
+}
+
+.itens {
+    text-align: center;
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+}
+
+.itens, a {
+    padding: 0px 20px;
+    text-align: right;
+}
+
+.nome, .itens, a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
 }
